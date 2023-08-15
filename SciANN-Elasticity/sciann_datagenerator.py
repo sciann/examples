@@ -202,9 +202,9 @@ class DataGeneratorXY:
     ids_bc_bot = np.arange(x_bc_bot.shape[0]) + counter
     counter += ids_bc_bot.size
 
-    # right bc points 
-    x_bc_top = np.random.uniform(self.Xdomain[0], self.Xdomain[1], num_sample-num_sample_per_edge)
-    y_bc_top = np.full(num_sample-num_sample_per_edge, self.Ydomain[1])
+    # top bc points 
+    x_bc_top = np.random.uniform(self.Xdomain[0], self.Xdomain[1], num_sample_per_edge)
+    y_bc_top = np.full(num_sample_per_edge, self.Ydomain[1])
     ids_bc_top = np.arange(x_bc_top.shape[0]) + counter
     counter += ids_bc_top.size
 
