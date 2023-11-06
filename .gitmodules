@@ -1,3 +1,6 @@
 [submodule "PINNeikonal"]
 	path = PINNeikonal
 	url = https://github.com/umairbinwaheed/PINNeikonal.git
+[submodule "En-DeepONet"]
+	path = En-DeepONet
+	url = https://github.com/ehsanhaghighat/En-DeepONet.git
